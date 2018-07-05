@@ -1,0 +1,19 @@
+{
+  "name": "GoCoder",
+  "version": "0.0.1",
+  "description": "\"This plugin will help to comunicate through local media devices\"",
+  "cordova": {
+    "id": "cordova-plugin-go-coder",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "MZabih",
+  "license": "ISC"
+}

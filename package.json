@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@ionic/pro": "1.0.20",
+    "GoCoder": "file:plugins_src/GoCoder",
     "cordova-android": "^6.3.0",
     "cordova-ios": "^4.5.4",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^1.1.19",
     "cordova-plugin-splashscreen": "^5.0.2",
-    "cordova-plugin-whitelist": "^1.3.3"
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-plugin-go-coder": "plugins_src/GoCoder"
   },
   "cordova": {
     "plugins": {
@@ -24,7 +26,8 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-go-coder": {}
     },
     "platforms": [
       "android",
